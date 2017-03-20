@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="ru.popolsku" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Polish grammar</name>
+    <name>Gramatyka polska</name>
     <description>
-        A basic Framework7 template for PhoneGap.
+        Materiały pomocnicze do nauki języka polskiego
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="vmg629@gmail.com" href="">
+        Michael Wasilew
     </author>
     <content src="index.html" />
     <access origin="*" />

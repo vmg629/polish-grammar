@@ -30,7 +30,7 @@ var myApp = new Framework7({
 	swipeBackPage: false,
 	tapHold: false,
 	tapHoldPreventClicks: true,
-	fastClicks: false
+	fastClicks: true
 });
  
 // Init View
