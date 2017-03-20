@@ -1,0 +1,353 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+<div data-page="miejscownik" class="page">
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="left">
+				<a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+			</div>
+			<div class="title">Miejscownik</div>
+			<div class="right">
+				<a href="#" class="back link">
+					<i class="icon icon-back"></i>
+					<!--span>Назад</span-->
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="page-content">
+		
+		<!--CONTENT BLOCK TITLE-->
+		<div class="content-block-title">Miejscownik <em>(o kim? o czym?)</em></div>
+		<!--/CONTENT BLOCK TITLE-->
+		
+		<!--LIST BLOCK-->
+		<div class="list-block accordion-list">
+			<ul>
+				<li class="accordion-item">
+					<a href="#" class="item-content item-link">
+						<div class="item-inner">
+							<div class="item-title">LICZBA POJEDYNCZA</div>
+							<div class="item-after">ед. число</div>
+						</div>
+					</a>
+					<div class="accordion-item-content">
+						<div class="content-block">
+							<!-- Buttons row as tabs controller in Subnavbar-->
+							<div class="buttons-row">
+								<a href="#item1_tab1" class="button active tab-link button-raised">r.m.</a>
+								<a href="#item1_tab2" class="button tab-link button-raised">r.ż.</a>
+								<a href="#item1_tab3" class="button tab-link button-raised">r.n.</a>
+							</div>
+							
+							<!-- Tabs swipeable wrapper, required to switch tabs with swipes -->
+							<div class="tabs-swipeable-wrap">
+								<!-- Tabs, tabs wrapper -->
+								<div class="tabs">
+									<!-- Tab 1, active by default -->
+									<div id="item1_tab1" class="tab active">
+										<p><strong>Rodzai męski</strong></p>
+										<table class="text-center">
+											<tbody>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>m<br/>i<br/>o<br/>t<br/>n<br/>i<br/>k</td>
+													<td>
+														<p>-<strong>ym</strong></p>
+														<p>-<strong>im</strong> (после k, g)</p>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">r<br/>z<br/>e<br/>c<br/>z<br/>o<br/>w<br/>n<br/>i<br/>k</td>
+													<td>
+														-<strong>ie</strong> (после b, p, m, n, w, f, z, s)<br/>
+														<hr/>
+														<div class="row">
+															<div class="col-auto">
+																t &rarr; <strong>cie</strong><br/>
+																d &rarr; <strong>dzie</strong><br/>
+																st &rarr; <strong>ście</strong><br/>
+																zd &rarr; <strong>ździe</strong><br/>
+															</div>
+															<div class="col-auto">
+																ł &rarr; <strong>le</strong><br/>
+																sł &rarr; <strong>śle</strong><br/>
+																r &rarr; <strong>rze</strong><br/>
+															</div>
+														</div>
+														<hr/>
+														-<strong>u</strong>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>k<br/>ł<br/>a<br/>d</td>
+													<td>
+														Studiuję na dobr<strong>ym</strong> uniwersyte<strong>cie</strong>.<br/>
+														Siedzę w wygodn<strong>ym</strong> fotel<strong>u</strong>.
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										
+									</div>
+									<!-- Tab 2 -->
+									<div id="item1_tab2" class="tab">
+										<p><strong>Rodzai żeński</strong></p>
+										<table class="text-center">
+											<tbody>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>m<br/>i<br/>o<br/>t<br/>n<br/>i<br/>k</td>
+													<td>
+														<p>-<strong>ej</strong></p>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">r<br/>z<br/>e<br/>c<br/>z<br/>o<br/>w<br/>n<br/>i<br/>k</td>
+													<td>
+														-<strong>ie</strong> (после b, p, m, n, w, f, z, s)<br/>
+														<hr/>
+														<div class="row">
+															<div class="col-auto">
+																t &rarr; <strong>cie</strong><br/>
+																d &rarr; <strong>dzie</strong><br/>
+																st &rarr; <strong>ście</strong><br/>
+																zd &rarr; <strong>ździe</strong>
+															</div>
+															<div class="col-auto">
+																ł &rarr; <strong>le</strong><br/>
+																sł &rarr; <strong>śle</strong><br/>
+																r &rarr; <strong>rze</strong>
+															</div>
+														</div>
+														<hr/>
+														k &rarr; <strong>ce</strong><br/>
+														g &rarr; <strong>dze</strong><br/>
+														ch &rarr; <strong>sze</strong>
+														<hr/>
+														-<strong>u</strong>
+														<hr/>
+														-<strong>y</strong> (после sz, cz, rz, ż, dz, c)
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>k<br/>ł<br/>a<br/>d</td>
+													<td>
+														Mieszkam w ładn<strong>ej</strong> Pra<strong>dze</strong>.<br/>
+														Jestem w prac<strong>y</strong>.<br/>
+														Łóżko znajduje się w sypialn<strong>i</strong>.<br/>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										
+									</div>
+									<!-- Tab 3 -->
+									<div id="item1_tab3" class="tab">
+										<p><strong>Rodzai nijaki</strong></p>
+										<table class="text-center">
+											<tbody>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>m<br/>i<br/>o<br/>t<br/>n<br/>i<br/>k</td>
+													<td>
+														<p>-<strong>ym</strong></p>
+														<p>-<strong>im</strong> (после k, g)</p>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">r<br/>z<br/>e<br/>c<br/>z<br/>o<br/>w<br/>n<br/>i<br/>k</td>
+													<td>
+														-<strong>ie</strong> (после b, p, m, n, w, f, z, s)<br/>
+														<hr/>
+														<div class="row">
+															<div class="col-auto">
+																t &rarr; <strong>cie</strong><br/>
+																d &rarr; <strong>dzie</strong><br/>
+																st &rarr; <strong>ście</strong><br/>
+																zd &rarr; <strong>ździe</strong><br/>
+															</div>
+															<div class="col-auto">
+																ł &rarr; <strong>le</strong><br/>
+																sł &rarr; <strong>śle</strong><br/>
+																r &rarr; <strong>rze</strong>
+															</div>
+														</div>
+														<hr/>
+														-<strong>u</strong>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>k<br/>ł<br/>a<br/>d</td>
+													<td>
+														Kot siedzi na drewnian<strong>ym</strong> krze<strong>śle</strong>.<br/>
+														Oni marzą o zdrow<strong>ym</strong> dzieck<strong>u</strong>.
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										
+									</div>
+								</div>
+							</div>
+							
+							<div class="card">
+								<div class="card-header color-red">Uwaga! <i class="fa fa-exclamation-triangle"></i></div>
+								<div class="card-content">
+									<div class="card-content-inner">
+										<div class="row">
+											<div class="col-25">
+												<strong class="color-red">ó:o/e</strong>
+											</div>
+											<div class="col-75">
+												st<strong class="color-red">ół</strong> – na st<strong class="color-red">ole</strong><br/>
+												kości<strong class="color-red">ół</strong> – w kości<strong class="color-red">ele</strong>
+											</div>
+										</div>
+										<hr />
+										<div class="row">
+											<div class="col-25">
+												<strong class="color-red">a:e</strong>
+											</div>
+											<div class="col-75">
+												mi<strong class="color-red">asto</strong> – w mi<strong class="color-red">eście</strong><br/>
+												muze<strong class="color-red">um</strong> – w muze<strong class="color-red">um</strong><br/>
+												syn – o syn<strong class="color-red">u</strong><br/>
+												pan – o pan<strong class="color-red">u</strong><br/>
+												dom – w dom<strong class="color-red">u</strong>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</li>
+				
+				<li class="accordion-item">
+					<a href="#" class="item-content item-link">
+						<div class="item-inner">
+							<div class="item-title">LICZBA MNOGA</div>
+							<div class="item-after">мн. число</div>
+						</div>
+					</a>
+					<div class="accordion-item-content">
+						<div class="content-block">
+							<!-- Buttons row as tabs controller in Subnavbar-->
+							<div class="buttons-row">
+								<a href="#item2_tab1" class="button active tab-link button-raised">r.m</a>
+								<a href="#item2_tab2" class="button tab-link button-raised">r.ż.</a>
+								<a href="#item2_tab3" class="button tab-link button-raised">r.n.</a>
+							</div>
+							
+							<!-- Tabs swipeable wrapper, required to switch tabs with swipes -->
+							<div class="tabs-swipeable-wrap">
+								<!-- Tabs, tabs wrapper -->
+								<div class="tabs">
+									<!-- Tab 1, active by default -->
+									<div id="item2_tab1" class="tab active">
+										<p><strong>Rodzai męski</strong></p>
+										<table class="text-center">
+											<tbody>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>m<br/>i<br/>o<br/>t<br/>n<br/>i<br/>k</td>
+													<td>
+														<p>-<strong>ych</strong></p>
+														<p>-<strong>ich</strong> (после k, g)</p>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">r<br/>z<br/>e<br/>c<br/>z<br/>o<br/>w<br/>n<br/>i<br/>k</td>
+													<td>
+														<p>-<strong>ach</strong></p>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>k<br/>ł<br/>a<br/>d</td>
+													<td>
+														<p>Chodzę po różn<strong>ych</strong> sklep<strong>ach</strong>.</p>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										
+									</div>
+									<!-- Tab 2 -->
+									<div id="item2_tab2" class="tab">
+										<p><strong>Rodzai żeński</strong></p>
+										<table class="text-center">
+											<tbody>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>m<br/>i<br/>o<br/>t<br/>n<br/>i<br/>k</td>
+													<td>
+														<p>-<strong>ych</strong></p>
+														<p>-<strong>ich</strong> (после k, g)</p>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">r<br/>z<br/>e<br/>c<br/>z<br/>o<br/>w<br/>n<br/>i<br/>k</td>
+													<td>
+														<p>-<strong>ach</strong></p>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>k<br/>ł<br/>a<br/>d</td>
+													<td>
+														<p>On bywa w dobr<strong>ych</strong> restauracj<strong>ach</strong>.</p>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<!-- Tab 3 -->
+									<div id="item2_tab3" class="tab">
+										<p><strong>Rodzai nijaki</strong></p>
+										<table class="text-center">
+											<tbody>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>m<br/>i<br/>o<br/>t<br/>n<br/>i<br/>k</td>
+													<td>
+														<p>-<strong>ych</strong></p>
+														<p>-<strong>ich</strong> (после k, g)</p>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">r<br/>z<br/>e<br/>c<br/>z<br/>o<br/>w<br/>n<br/>i<br/>k</td>
+													<td>
+														<p>-<strong>ach</strong></p>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center text-vertical td-green">p<br/>r<br/>z<br/>y<br/>k<br/>ł<br/>a<br/>d</td>
+													<td>
+														<p>Marzę o now<strong>ych</strong> miast<strong>ach</strong>.</p>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							
+							<div class="card">
+								<div class="card-header color-red">Uwaga! <i class="fa fa-exclamation-triangle"></i></div>
+								<div class="card-content">
+									<div class="card-content-inner">
+										Niemcy – w Niemcz<strong class="color-red">ech</strong><br/>
+										Włochy – we Włosz<strong class="color-red">ech</strong><br/>
+										Węgry – na Węgrz<strong class="color-red">ech</strong><br/>
+										Czechy – w Czech<strong class="color-red">ach</strong><br/>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+		<!--/LIST BLOCK-->
+		
+	</div>
+</div>
+

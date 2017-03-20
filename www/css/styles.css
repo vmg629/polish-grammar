@@ -1,0 +1,115 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+.list-block {
+
+}
+.statusbar-overlay {
+    background: #ddd;
+}
+.overflow-x {
+	overflow-x: scroll;
+}
+.content-block-inner {
+	margin-bottom: 15px;
+}
+
+
+
+/*TITLE*/
+.content-block-title {
+	white-space: normal !important;
+	line-height: 1.5 !important;
+}
+/*/TITLE*/
+
+/*TEXT STYLE*/
+.content-block {
+	color: #3e3d3d !important;
+	line-height: 1.6;
+}
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+.nowrap {white-space: nowrap;}
+.text-vertical {
+	font-family: monospace;
+	line-height: 0.9;
+	width: 1px;
+	letter-spacing: 0px;
+	padding: 4px 4px !important;
+}
+.text-vertical p {
+	padding: 0;
+	margin: 0;
+}
+.text-small {font-size: 11px;}
+
+hr {
+	height: 1px;
+	border: 0px;
+	background: #ccc;
+	margin: 2px 0;
+}
+/*/TEXT STYLE*/
+
+/*POPOVERS*/
+.popover {
+	width: auto !important;
+}
+.popover-inner {
+	padding: 0 10px;
+}
+/*/POPOVERS*/
+
+/*TABLES*/
+.page-content table {
+	border-collapse: collapse;
+	margin: 15px 0;
+	width: 100%;
+	background: #fff;
+}
+.td-green {
+	background: #007aff;
+	color: #fff;
+}
+.td-lightblue {background: #f0f7ff;}
+.td-lightbrown {background: #ffe8a3;}
+
+.page-content table th,
+.page-content table td {
+	border: 1px solid #007aff;
+	padding: 0 5px;
+}
+.page-content table strong {
+	color: red;
+}
+/*/TABLES*/
+
+/*ACCORDION*/
+.accordion-item-expanded {
+	background: #fafafa;
+}
+/*/ACCORDION*/
+
+/*-------PAGES INDIVIDUAL STYLES-------*/
+/*liczebniki*/
+.liczebniki-list strong {
+	color: red;
+}
+/*liczebniki*/
+/*------/PAGES INDIVIDUAL STYLES-------*/
+
+/*ICONS*/
+.swipe_icons {
+	/*opacity: 0.5;*/
+}
+/*ICONS*/
