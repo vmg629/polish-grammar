@@ -18,7 +18,13 @@ if (!isIos) {
     // And move Navbar into Page
     //$$('.view .navbar').prependTo('.view .page');
 }
- 
+
+var iswebView = Framework7.prototype.device.webView === true;
+
+if (!iswebView) {
+	$$('html').removeClass('html_webview');
+}
+
 // Init App
 var myApp = new Framework7({
     // Enable Material theme for Android device only
@@ -80,5 +86,4 @@ $$(document).on('pageInit', '.page[data-page="about"]', function (e) {
     // Following code will be executed for page with data-page attribute equal to "about"
     //myApp.alert('Here comes About page');
 })
-
 

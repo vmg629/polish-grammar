@@ -1,21 +1,58 @@
-.list-block {
+.html_webview body {
+	overflow: hidden !important;
+}
+.html_webview body, 
+.html_webview .views, 
+.html_webview .view,
+.html_webview .pages,
+.html_webview .page, 
+.html_webview .page-content {
+	overflow: visible !important;
+}
+.html_webview {
+	overflow: hidden !important;
+}
 
+.html_webview body.with-panel-left-cover {
+	overflow: hidden !important;
+}
+
+
+.list-block {
 }
 .statusbar-overlay {
     background: #ddd;
-}
-.overflow-x {
-	overflow-x: auto;
 }
 .content-block-inner {
 	margin-bottom: 15px;
 }
 
-
-.ui-draggable-handle {
-	-ms-touch-action: none;
-	touch-action: none;
+/*SWIPE ICON*/
+.swipe_icon {
+	font-family:'FontAwesome';
+	display:block;
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	
+	background: rgba(0,0,0,0.2);
+	padding: 22px 7px;
+	border-radius: 40px;
+	position: absolute;
+	top: 45%;
+	left: 45%;
 }
+.swipe_icon:before{
+	content:"\f060";
+	margin-right: 4px;
+}
+.swipe_icon:after{
+	content:"\f061";
+	margin-left: 4px;
+}
+/*SWIPE ICON*/
 
 /*NAVBAR*/
 .navbar {}
@@ -78,6 +115,13 @@ table {
 	margin: 15px 0;
 	width: 100%;
 	background: #fff;
+	overflow: auto;
+	overflow-y: hidden;
+	overflow-x: visible;
+	float: none !important;
+	display: block;
+	width: 100% !important;
+	height: 100%;
 }
 .td-green {
 	background: #007aff;
